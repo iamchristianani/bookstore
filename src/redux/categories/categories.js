@@ -1,4 +1,4 @@
-const STATUS_CHECKED = 'STATUS_CHECKED';
+const STATUS_CHECKED = 'bookstore/categories/STATUS_CHECKED';
 
 const categoriesArr = [];
 
