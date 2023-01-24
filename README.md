@@ -1,30 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -39,8 +12,7 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -50,113 +22,108 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BookStore <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
-**BookStore** is a website that allows you to:
+> "Math magicians"  is a web app thats used to store different components of the app and also display books when put into use.
 
-- Display a list of books.
-- Add a book.
-- Remove a selected book.
-
-> By building this application, I will learn how to use React and Redux.
+**Math magicians** is a Module 3 project from microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React Router
-- React components
-- JavaScript
-- CSS
-- ReactJS
-- Redux
-- Eslint
-- Stylelint
+### Tech Stack <a name="tech-stack"></a>
 
-(<a href="#readme-top">back to top</a>)
+<details>
+
+  <summary>REACT</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Used React Router for navigation**
+- **Designed with React**
+- **Displaces list of Added Books**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+> Add a link to your deployed project.
+
+ ```sh
+ -Coming soon
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Getting Started with Create React App
+<!-- GETTING STARTED -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Available Scripts
+To get a local copy up and running, follow these steps.
 
-In the project directory, you can run:
+### Prerequisites
+```sh
 
-### `npm start`
+ -Visual Studio code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ -Web Browser
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!--
+Example command:
 
-### `npm test`
+```sh
+ gem install rails
+```
+ -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+Clone this repository to your desired folder:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+  cd my-folder
+  git clone https://github.com/iamchristianani/bookstore.git
+```
+### Install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run on local machine, open your terminal and run the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+  npm install
+  npm run build 
+  npm start
+```
+### Usage
 
-### `npm run eject`
+To following are what the web-app is used for:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
+```sh
+  Calculate simple arithmetics
+  When forked you can see how React Router used 
+  Shows a simple web app bulid with React
+```
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project would be deployed using github pages:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+  Deployed on Cloud via Render.com
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Christian Ani**
 
@@ -170,8 +137,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Initialize project with components (React only)]**
-- [ ] **[Add reducers and actions.]**
 - [ ] **[Use Redux in React components.]**
 - [ ] **[Connect to API.]**
 - [ ] **[Styling ]**
