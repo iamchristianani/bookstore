@@ -18,10 +18,16 @@ const Form = () => {
 
   const submitBooksHandler = (e) => {
     e.preventDefault();
-    if (title.trim() === '' || author.trim() === '') return;
+    if (!title || !author) return;
     const id = uuidv4();
-    const currentState = { id, title, author };
-    dispatch(addAction(currentState));
+    // const currentState = { id, title, author };
+    const book = {
+      item_id: id,
+      title,
+      author,
+      category: 'Romance',
+    };
+    dispatch(addAction(book));
     setTitle('');
     setAuthor('');
   };
