@@ -6,11 +6,6 @@ import { removeAction } from '../redux/books/books';
 const Book = ({ id, title, author }) => {
   const dispatch = useDispatch();
 
-  // const removeBook = () => {
-  //   dispatch(removeAction(id));
-  // };
-
-  console.log(id);
   return (
     <div id={id} className="oneBook">
       <h2>{title}</h2>

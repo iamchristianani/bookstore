@@ -20,7 +20,6 @@ const Form = () => {
     e.preventDefault();
     if (!title || !author) return;
     const id = uuidv4();
-    // const currentState = { id, title, author };
     const book = {
       item_id: id,
       title,
