@@ -15,13 +15,16 @@ const Books = () => {
   return (
     <>
       <ul className="allBooks">
-        {
-          data.map((book) => (
-            <li key={book.bookId}>
-              <Book key={book.bookId} id={book.bookId} title={book.title} author={book.author} />
-            </li>
-          ))
-        }
+        {data.map((book) => (
+          <li key={book.bookId}>
+            <Book
+              key={book.bookId}
+              id={book.bookId}
+              title={book.title}
+              author={book.author}
+            />
+          </li>
+        ))}
       </ul>
       <Form />
     </>
