@@ -46,7 +46,9 @@
 
 - **Used React Router for navigation**
 - **Designed with React**
-- **Displaces list of Added Books**
+- **Add Books and their Authors**
+- **Store Books in API**
+- **Delete Books from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +139,6 @@ This project would be deployed using github pages:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Connect to API.]**
 - [ ] **[Styling ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
