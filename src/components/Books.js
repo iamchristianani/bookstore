@@ -14,19 +14,25 @@ const Books = () => {
 
   return (
     <>
-      <ul className="allBooks">
-        {data.map((book) => (
-          <li key={book.bookId}>
-            <Book
-              key={book.bookId}
-              id={book.bookId}
-              title={book.title}
-              author={book.author}
-            />
-          </li>
-        ))}
-      </ul>
-      <Form />
+      <div className="container">
+        <div>
+          <ul className="allBooks">
+            {data.map((book) => (
+              <li key={book.bookId}>
+                <Book
+                  key={book.bookId}
+                  id={book.bookId}
+                  title={book.title}
+                  author={book.author}
+                  category={book.category}
+                />
+              </li>
+            ))}
+          </ul>
+          <div className="horizontalDivider">{null}</div>
+          <Form />
+        </div>
+      </div>
     </>
   );
 };

@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
 
 const Navigation = () => (
   <header className="navBox">
-    <h1 className="navTitle">Bookstore</h1>
+    <Link to="/" className="navTitle">Bookstore CMS</Link>
     <ul className="navLinks">
       <li>
-        <Link to="/">Books</Link>
+        <Link to="/">BOOKS</Link>
       </li>
       <li>
-        <Link to="/categories">Categories</Link>
+        <Link to="/categories">CATEGORIES</Link>
       </li>
     </ul>
+    <button type="button" className="navIconBtn">
+      <FaUser />
+    </button>
   </header>
 );
 
