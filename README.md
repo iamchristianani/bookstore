@@ -139,7 +139,7 @@ This project would be deployed using github pages:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Styling ]**
+- [ ] **[Complete the Categories page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
