@@ -56,12 +56,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+ - [Live Demo Link](https://bookstore-plkj.onrender.com/)
+ > NOTE: It takes some time to load up.
 
- ```sh
- -Coming soon
-
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
