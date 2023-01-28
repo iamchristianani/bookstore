@@ -10,11 +10,13 @@ const Categories = () => {
   };
 
   return (
-    <div>
-      <span>{categories}</span>
-      <br />
-      <button className="categoryButton" type="button" onClick={checkStatus}>Check Status</button>
-    </div>
+    <>
+      <div className="categoryContainer">
+        <span className="categoryText">{categories}</span>
+        <br />
+        <button className="categoryButton" type="button" onClick={checkStatus}>Check Status</button>
+      </div>
+    </>
   );
 };
 
