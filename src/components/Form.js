@@ -33,9 +33,10 @@ const Form = () => {
 
   return (
     <div className="formBox">
+      <h2 className="formTitle">ADD NEW BOOK</h2>
       <form onSubmit={submitBooksHandler}>
-        <input className="titleInput" name="title" type="text" placeholder="Title" onChange={titleChange} value={title} />
-        <input type="text" placeholder="Author" onChange={authorChange} value={author} />
+        <input className="input titleInput" name="title" type="text" placeholder="Book Title" onChange={titleChange} value={title} />
+        <input className="input authorInput" type="text" placeholder="Author" onChange={authorChange} value={author} />
         <button type="submit" className="formButton">
           Add Book
         </button>
