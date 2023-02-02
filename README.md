@@ -56,8 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://bookstore-plkj.onrender.com/)
- > NOTE: It takes some time to load up.
+ - [Live Demo Link](https://bookstore-cms-q2lx.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
